@@ -1,4 +1,3 @@
-		
 insert into employee (employee_id, first_name, last_name, email) values (1, 'John', 'Warton', 'warton@gmail.com');
 insert into employee (employee_id, first_name, last_name, email) values (2, 'Mike', 'Lanister', 'lanister@gmail.com');
 insert into employee (employee_id, first_name, last_name, email) values (3, 'Steve', 'Reeves', 'Reeves@gmail.com');
@@ -22,4 +21,4 @@ insert into project_employee (employee_id, project_id) values (1,1002);
 insert into project_employee (employee_id, project_id) values (3,1000);
 insert into project_employee (employee_id, project_id) values (6,1002);
 insert into project_employee (employee_id, project_id) values (6,1003);
-													
+		
