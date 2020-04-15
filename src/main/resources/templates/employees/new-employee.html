@@ -6,7 +6,7 @@
 	<nav th:replace="layouts :: navbar"></nav>
 
 	<div class="container">
-		<form action="/employees/save" th:object="${employees}" method="POST">
+		<form th:action="@{/employees/save}" th:object="${employees}" method="POST">
 
 			<input type="text" placeholder="firstName"
 				th:field="${employees.firstName}"> <input type="text"
